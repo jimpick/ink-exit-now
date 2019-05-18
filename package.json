@@ -1,0 +1,36 @@
+{
+  "name": "@jimpick/ink-exit-now",
+  "version": "0.0.1",
+  "description": "Component for Ink/React that exits immediately when rendered",
+  "main": "dist/inkExitNow.js",
+  "type": "module",
+  "scripts": {
+    "build": "babel *.js --out-dir ./dist",
+    "prepublish": "npm run build"
+  },
+  "keywords": [],
+  "author": "Jim Pick (@jimpick)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "sourceMaps": "inline"
+  },
+  "browserslist": "node 10",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimpick/ink-exit-now.git"
+  },
+  "dependencies": {
+    "ink": "^2.1.1",
+    "react": "^16.8.6"
+  }
+}
