@@ -1,6 +1,6 @@
 {
   "name": "@jimpick/ink-exit-now",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Component for Ink/React that exits immediately when rendered",
   "main": "dist/inkExitNow.js",
   "type": "module",
