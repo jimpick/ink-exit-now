@@ -12,10 +12,14 @@
   "keywords": [],
   "author": "Jim Pick (@jimpick)",
   "license": "MIT",
+  "dependencies": {
+    "ink": "^2.2.0",
+    "react": "^16.8.6"
+  },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
-    "@babel/core": "^7.4.4",
-    "@babel/preset-env": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
     "@babel/preset-react": "^7.0.0"
   },
   "babel": {
@@ -29,9 +33,5 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jimpick/ink-exit-now.git"
-  },
-  "dependencies": {
-    "ink": "^2.1.1",
-    "react": "^16.8.6"
   }
 }
